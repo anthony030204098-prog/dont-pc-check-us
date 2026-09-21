@@ -1,0 +1,9 @@
+.roster-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 800px) {
+  .player-card:last-child {
+    grid-column: auto;
+  }
+}
