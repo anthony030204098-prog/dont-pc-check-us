@@ -10,6 +10,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,800&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="roster.css" />
+    <style>
+      .ball.team-logo {
+        width: 40%;
+        left: 5%;
+        top: 15%;
+        background: #050507 url('dont-pc-check-us-logo.png') center / contain no-repeat;
+        border: 1px solid #a35fff;
+        box-shadow: 0 0 70px #7f30e5;
+      }
+      .ball.team-logo::before,
+      .ball.team-logo::after,
+      .ball.team-logo span { display: none; }
+    </style>
   </head>
   <body>
     <div class="noise"></div>
@@ -29,7 +42,7 @@
           <div class="hero-actions"><a class="button primary" href="#roster">VIEW ROSTER <b>↗</b></a></div>
         </div>
         <div class="hero-number">01</div>
-        <div class="orbit"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="ball"><span></span><span></span><span></span></div></div>
+        <div class="orbit"><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="ball team-logo"><span></span><span></span><span></span></div></div>
         <div class="hero-footer"><span>SCROLL TO EXPLORE</span><span class="down">↓</span><span>UNRANKED. UNCHECKED. UNSTOPPABLE.</span></div>
       </section>
 
